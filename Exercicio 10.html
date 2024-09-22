@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando audio no seu site </title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio<h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="Mídia/musica-para-site.mp3.mp3" controls autoplay></audio> <!--Alguns navegadores não aceitam o formato mp3 então temos outros formatos: WAV, OGG-->
+    <!--Há também outra forma de adicionar música ao site, código a baixo-->
+    <audio preload="auto" autoplay controls><source src="Mídia/dream.mp3.mp3" type="audio/mpeg"> </audio> <!--Caso voce queira depois de autoplay controls colocar o nome loop, isso faz com que a musica recomece depois de finalizada--> 
+</body>
+</html>
